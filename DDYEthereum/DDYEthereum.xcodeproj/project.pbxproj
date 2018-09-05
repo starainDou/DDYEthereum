@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0301A79E213ED7DB00B7C18A /* DDYEtherScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0301A79D213ED7DB00B7C18A /* DDYEtherScanVC.m */; };
 		0301A7A1213ED84F00B7C18A /* DDYEtherAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0301A7A0213ED84F00B7C18A /* DDYEtherAddVC.m */; };
 		0301A7A4213ED90F00B7C18A /* DDYEtherListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0301A7A3213ED90F00B7C18A /* DDYEtherListVC.m */; };
 		0301A7A7213ED9F800B7C18A /* DDYEtherListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0301A7A6213ED9F800B7C18A /* DDYEtherListCell.m */; };
@@ -28,11 +27,35 @@
 		A4A09640213E516900F807FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A0963B213E516900F807FD /* ViewController.m */; };
 		A4A09742213E949100F807FD /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A09741213E949100F807FD /* ethers.framework */; };
 		A4A09748213E96C800F807FD /* DDYEtherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09747213E96C800F807FD /* DDYEtherModel.m */; };
+		A4A09784213F883200F807FD /* PAWebView+UIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A0974E213F883100F807FD /* PAWebView+UIDelegate.m */; };
+		A4A09785213F883200F807FD /* PAWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09750213F883100F807FD /* PAWebView.m */; };
+		A4A09786213F883200F807FD /* NSObject+PARuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09753213F883100F807FD /* NSObject+PARuntime.m */; };
+		A4A09787213F883200F807FD /* WKWebView+PAWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09755213F883100F807FD /* WKWebView+PAWebCache.m */; };
+		A4A09788213F883200F807FD /* WKWebView+PAWebCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09757213F883100F807FD /* WKWebView+PAWebCookie.m */; };
+		A4A09789213F883200F807FD /* PAPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A0975B213F883100F807FD /* PAPhotoBrowser.m */; };
+		A4A0978A213F883200F807FD /* PreviewVc.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A0975E213F883100F807FD /* PreviewVc.m */; };
+		A4A0978B213F883200F807FD /* TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09760213F883100F807FD /* TYSnapshot.m */; };
+		A4A0978C213F883200F807FD /* UIImage+TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09762213F883100F807FD /* UIImage+TYSnapshot.m */; };
+		A4A0978D213F883200F807FD /* UIScrollView+TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09764213F883100F807FD /* UIScrollView+TYSnapshot.m */; };
+		A4A0978E213F883200F807FD /* UITableView+TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09766213F883100F807FD /* UITableView+TYSnapshot.m */; };
+		A4A0978F213F883200F807FD /* WKWebView+TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09768213F883100F807FD /* WKWebView+TYSnapshot.m */; };
+		A4A09790213F883200F807FD /* NSURL+PATool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A0976B213F883100F807FD /* NSURL+PATool.m */; };
+		A4A09791213F883200F807FD /* PAWebViewMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A0976D213F883100F807FD /* PAWebViewMenu.m */; };
+		A4A09792213F883200F807FD /* registerURLSchemes.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A0976F213F883100F807FD /* registerURLSchemes.m */; };
+		A4A09793213F883200F807FD /* urlschemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09771213F883100F807FD /* urlschemeModel.m */; };
+		A4A09794213F883200F807FD /* WKWebView+LongPress.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09773213F883100F807FD /* WKWebView+LongPress.m */; };
+		A4A09795213F883200F807FD /* WKWebView+POST.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09775213F883100F807FD /* WKWebView+POST.m */; };
+		A4A09796213F883200F807FD /* PAWebNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09778213F883100F807FD /* PAWebNavigationController.m */; };
+		A4A09797213F883200F807FD /* PAWKPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A0977A213F883100F807FD /* PAWKPanGestureRecognizer.m */; };
+		A4A09798213F883200F807FD /* navigationbar_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A0977C213F883100F807FD /* navigationbar_more@2x.png */; };
+		A4A09799213F883200F807FD /* navigationbar_more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A0977D213F883100F807FD /* navigationbar_more@3x.png */; };
+		A4A0979A213F883200F807FD /* PAWebBack.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A0977E213F883100F807FD /* PAWebBack.png */; };
+		A4A0979B213F883200F807FD /* UIAlertController+WKWebAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09780213F883100F807FD /* UIAlertController+WKWebAlert.m */; };
+		A4A0979C213F883200F807FD /* WKBaseWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09782213F883100F807FD /* WKBaseWebView.m */; };
+		A4A0979D213F883200F807FD /* WKJSFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09783213F883100F807FD /* WKJSFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0301A79C213ED7DB00B7C18A /* DDYEtherScanVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYEtherScanVC.h; sourceTree = "<group>"; };
-		0301A79D213ED7DB00B7C18A /* DDYEtherScanVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYEtherScanVC.m; sourceTree = "<group>"; };
 		0301A79F213ED84F00B7C18A /* DDYEtherAddVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYEtherAddVC.h; sourceTree = "<group>"; };
 		0301A7A0213ED84F00B7C18A /* DDYEtherAddVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYEtherAddVC.m; sourceTree = "<group>"; };
 		0301A7A2213ED90F00B7C18A /* DDYEtherListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYEtherListVC.h; sourceTree = "<group>"; };
@@ -75,6 +98,54 @@
 		A4A09741213E949100F807FD /* ethers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ethers.framework; sourceTree = "<group>"; };
 		A4A09746213E96C800F807FD /* DDYEtherModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYEtherModel.h; sourceTree = "<group>"; };
 		A4A09747213E96C800F807FD /* DDYEtherModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYEtherModel.m; sourceTree = "<group>"; };
+		A4A0974D213F883100F807FD /* PAWebView+UIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PAWebView+UIDelegate.h"; sourceTree = "<group>"; };
+		A4A0974E213F883100F807FD /* PAWebView+UIDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PAWebView+UIDelegate.m"; sourceTree = "<group>"; };
+		A4A0974F213F883100F807FD /* PAWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAWebView.h; sourceTree = "<group>"; };
+		A4A09750213F883100F807FD /* PAWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAWebView.m; sourceTree = "<group>"; };
+		A4A09752213F883100F807FD /* NSObject+PARuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PARuntime.h"; sourceTree = "<group>"; };
+		A4A09753213F883100F807FD /* NSObject+PARuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PARuntime.m"; sourceTree = "<group>"; };
+		A4A09754213F883100F807FD /* WKWebView+PAWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+PAWebCache.h"; sourceTree = "<group>"; };
+		A4A09755213F883100F807FD /* WKWebView+PAWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+PAWebCache.m"; sourceTree = "<group>"; };
+		A4A09756213F883100F807FD /* WKWebView+PAWebCookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+PAWebCookie.h"; sourceTree = "<group>"; };
+		A4A09757213F883100F807FD /* WKWebView+PAWebCookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+PAWebCookie.m"; sourceTree = "<group>"; };
+		A4A0975A213F883100F807FD /* PAPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPhotoBrowser.h; sourceTree = "<group>"; };
+		A4A0975B213F883100F807FD /* PAPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAPhotoBrowser.m; sourceTree = "<group>"; };
+		A4A0975D213F883100F807FD /* PreviewVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewVc.h; sourceTree = "<group>"; };
+		A4A0975E213F883100F807FD /* PreviewVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewVc.m; sourceTree = "<group>"; };
+		A4A0975F213F883100F807FD /* TYSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSnapshot.h; sourceTree = "<group>"; };
+		A4A09760213F883100F807FD /* TYSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSnapshot.m; sourceTree = "<group>"; };
+		A4A09761213F883100F807FD /* UIImage+TYSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TYSnapshot.h"; sourceTree = "<group>"; };
+		A4A09762213F883100F807FD /* UIImage+TYSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TYSnapshot.m"; sourceTree = "<group>"; };
+		A4A09763213F883100F807FD /* UIScrollView+TYSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TYSnapshot.h"; sourceTree = "<group>"; };
+		A4A09764213F883100F807FD /* UIScrollView+TYSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TYSnapshot.m"; sourceTree = "<group>"; };
+		A4A09765213F883100F807FD /* UITableView+TYSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TYSnapshot.h"; sourceTree = "<group>"; };
+		A4A09766213F883100F807FD /* UITableView+TYSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TYSnapshot.m"; sourceTree = "<group>"; };
+		A4A09767213F883100F807FD /* WKWebView+TYSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+TYSnapshot.h"; sourceTree = "<group>"; };
+		A4A09768213F883100F807FD /* WKWebView+TYSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+TYSnapshot.m"; sourceTree = "<group>"; };
+		A4A0976A213F883100F807FD /* NSURL+PATool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+PATool.h"; sourceTree = "<group>"; };
+		A4A0976B213F883100F807FD /* NSURL+PATool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+PATool.m"; sourceTree = "<group>"; };
+		A4A0976C213F883100F807FD /* PAWebViewMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAWebViewMenu.h; sourceTree = "<group>"; };
+		A4A0976D213F883100F807FD /* PAWebViewMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAWebViewMenu.m; sourceTree = "<group>"; };
+		A4A0976E213F883100F807FD /* registerURLSchemes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerURLSchemes.h; sourceTree = "<group>"; };
+		A4A0976F213F883100F807FD /* registerURLSchemes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerURLSchemes.m; sourceTree = "<group>"; };
+		A4A09770213F883100F807FD /* urlschemeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urlschemeModel.h; sourceTree = "<group>"; };
+		A4A09771213F883100F807FD /* urlschemeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = urlschemeModel.m; sourceTree = "<group>"; };
+		A4A09772213F883100F807FD /* WKWebView+LongPress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+LongPress.h"; sourceTree = "<group>"; };
+		A4A09773213F883100F807FD /* WKWebView+LongPress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+LongPress.m"; sourceTree = "<group>"; };
+		A4A09774213F883100F807FD /* WKWebView+POST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+POST.h"; sourceTree = "<group>"; };
+		A4A09775213F883100F807FD /* WKWebView+POST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+POST.m"; sourceTree = "<group>"; };
+		A4A09777213F883100F807FD /* PAWebNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAWebNavigationController.h; sourceTree = "<group>"; };
+		A4A09778213F883100F807FD /* PAWebNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAWebNavigationController.m; sourceTree = "<group>"; };
+		A4A09779213F883100F807FD /* PAWKPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAWKPanGestureRecognizer.h; sourceTree = "<group>"; };
+		A4A0977A213F883100F807FD /* PAWKPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAWKPanGestureRecognizer.m; sourceTree = "<group>"; };
+		A4A0977C213F883100F807FD /* navigationbar_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_more@2x.png"; sourceTree = "<group>"; };
+		A4A0977D213F883100F807FD /* navigationbar_more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_more@3x.png"; sourceTree = "<group>"; };
+		A4A0977E213F883100F807FD /* PAWebBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PAWebBack.png; sourceTree = "<group>"; };
+		A4A0977F213F883100F807FD /* UIAlertController+WKWebAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+WKWebAlert.h"; sourceTree = "<group>"; };
+		A4A09780213F883100F807FD /* UIAlertController+WKWebAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+WKWebAlert.m"; sourceTree = "<group>"; };
+		A4A09781213F883100F807FD /* WKBaseWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBaseWebView.h; sourceTree = "<group>"; };
+		A4A09782213F883100F807FD /* WKBaseWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBaseWebView.m; sourceTree = "<group>"; };
+		A4A09783213F883100F807FD /* WKJSFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJSFunction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +212,7 @@
 		A4A0961E213E49C400F807FD /* DDYEthereum */ = {
 			isa = PBXGroup;
 			children = (
+				A4A0974C213F883100F807FD /* PAWebView */,
 				0301A7A8213EDC6E00B7C18A /* Masonry */,
 				A4A09641213E524900F807FD /* DDYEther */,
 				A4A09633213E516900F807FD /* System */,
@@ -167,8 +239,6 @@
 			children = (
 				A4A09746213E96C800F807FD /* DDYEtherModel.h */,
 				A4A09747213E96C800F807FD /* DDYEtherModel.m */,
-				0301A79C213ED7DB00B7C18A /* DDYEtherScanVC.h */,
-				0301A79D213ED7DB00B7C18A /* DDYEtherScanVC.m */,
 				0301A79F213ED84F00B7C18A /* DDYEtherAddVC.h */,
 				0301A7A0213ED84F00B7C18A /* DDYEtherAddVC.m */,
 				0301A7A2213ED90F00B7C18A /* DDYEtherListVC.h */,
@@ -185,6 +255,117 @@
 				A4A09741213E949100F807FD /* ethers.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4A0974C213F883100F807FD /* PAWebView */ = {
+			isa = PBXGroup;
+			children = (
+				A4A0974D213F883100F807FD /* PAWebView+UIDelegate.h */,
+				A4A0974E213F883100F807FD /* PAWebView+UIDelegate.m */,
+				A4A0974F213F883100F807FD /* PAWebView.h */,
+				A4A09750213F883100F807FD /* PAWebView.m */,
+				A4A09751213F883100F807FD /* PAWebViewCache */,
+				A4A09758213F883100F807FD /* PAWebViewExtern */,
+				A4A09769213F883100F807FD /* PAWebViewTool */,
+				A4A09776213F883100F807FD /* PAWKNative */,
+				A4A09783213F883100F807FD /* WKJSFunction.m */,
+			);
+			path = PAWebView;
+			sourceTree = "<group>";
+		};
+		A4A09751213F883100F807FD /* PAWebViewCache */ = {
+			isa = PBXGroup;
+			children = (
+				A4A09752213F883100F807FD /* NSObject+PARuntime.h */,
+				A4A09753213F883100F807FD /* NSObject+PARuntime.m */,
+				A4A09754213F883100F807FD /* WKWebView+PAWebCache.h */,
+				A4A09755213F883100F807FD /* WKWebView+PAWebCache.m */,
+				A4A09756213F883100F807FD /* WKWebView+PAWebCookie.h */,
+				A4A09757213F883100F807FD /* WKWebView+PAWebCookie.m */,
+			);
+			path = PAWebViewCache;
+			sourceTree = "<group>";
+		};
+		A4A09758213F883100F807FD /* PAWebViewExtern */ = {
+			isa = PBXGroup;
+			children = (
+				A4A09759213F883100F807FD /* PAPhotoBrowser */,
+				A4A0975C213F883100F807FD /* TYSnapshot */,
+			);
+			path = PAWebViewExtern;
+			sourceTree = "<group>";
+		};
+		A4A09759213F883100F807FD /* PAPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				A4A0975A213F883100F807FD /* PAPhotoBrowser.h */,
+				A4A0975B213F883100F807FD /* PAPhotoBrowser.m */,
+			);
+			path = PAPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		A4A0975C213F883100F807FD /* TYSnapshot */ = {
+			isa = PBXGroup;
+			children = (
+				A4A0975D213F883100F807FD /* PreviewVc.h */,
+				A4A0975E213F883100F807FD /* PreviewVc.m */,
+				A4A0975F213F883100F807FD /* TYSnapshot.h */,
+				A4A09760213F883100F807FD /* TYSnapshot.m */,
+				A4A09761213F883100F807FD /* UIImage+TYSnapshot.h */,
+				A4A09762213F883100F807FD /* UIImage+TYSnapshot.m */,
+				A4A09763213F883100F807FD /* UIScrollView+TYSnapshot.h */,
+				A4A09764213F883100F807FD /* UIScrollView+TYSnapshot.m */,
+				A4A09765213F883100F807FD /* UITableView+TYSnapshot.h */,
+				A4A09766213F883100F807FD /* UITableView+TYSnapshot.m */,
+				A4A09767213F883100F807FD /* WKWebView+TYSnapshot.h */,
+				A4A09768213F883100F807FD /* WKWebView+TYSnapshot.m */,
+			);
+			path = TYSnapshot;
+			sourceTree = "<group>";
+		};
+		A4A09769213F883100F807FD /* PAWebViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				A4A0976A213F883100F807FD /* NSURL+PATool.h */,
+				A4A0976B213F883100F807FD /* NSURL+PATool.m */,
+				A4A0976C213F883100F807FD /* PAWebViewMenu.h */,
+				A4A0976D213F883100F807FD /* PAWebViewMenu.m */,
+				A4A0976E213F883100F807FD /* registerURLSchemes.h */,
+				A4A0976F213F883100F807FD /* registerURLSchemes.m */,
+				A4A09770213F883100F807FD /* urlschemeModel.h */,
+				A4A09771213F883100F807FD /* urlschemeModel.m */,
+				A4A09772213F883100F807FD /* WKWebView+LongPress.h */,
+				A4A09773213F883100F807FD /* WKWebView+LongPress.m */,
+				A4A09774213F883100F807FD /* WKWebView+POST.h */,
+				A4A09775213F883100F807FD /* WKWebView+POST.m */,
+			);
+			path = PAWebViewTool;
+			sourceTree = "<group>";
+		};
+		A4A09776213F883100F807FD /* PAWKNative */ = {
+			isa = PBXGroup;
+			children = (
+				A4A09777213F883100F807FD /* PAWebNavigationController.h */,
+				A4A09778213F883100F807FD /* PAWebNavigationController.m */,
+				A4A09779213F883100F807FD /* PAWKPanGestureRecognizer.h */,
+				A4A0977A213F883100F807FD /* PAWKPanGestureRecognizer.m */,
+				A4A0977B213F883100F807FD /* views */,
+				A4A09781213F883100F807FD /* WKBaseWebView.h */,
+				A4A09782213F883100F807FD /* WKBaseWebView.m */,
+			);
+			path = PAWKNative;
+			sourceTree = "<group>";
+		};
+		A4A0977B213F883100F807FD /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A4A0977C213F883100F807FD /* navigationbar_more@2x.png */,
+				A4A0977D213F883100F807FD /* navigationbar_more@3x.png */,
+				A4A0977E213F883100F807FD /* PAWebBack.png */,
+				A4A0977F213F883100F807FD /* UIAlertController+WKWebAlert.h */,
+				A4A09780213F883100F807FD /* UIAlertController+WKWebAlert.m */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +425,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A0979A213F883200F807FD /* PAWebBack.png in Resources */,
 				A4A0963E213E516900F807FD /* Info.plist in Resources */,
+				A4A09798213F883200F807FD /* navigationbar_more@2x.png in Resources */,
+				A4A09799213F883200F807FD /* navigationbar_more@3x.png in Resources */,
 				A4A0963D213E516900F807FD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,21 +440,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A0979C213F883200F807FD /* WKBaseWebView.m in Sources */,
 				0301A7C9213EDC6F00B7C18A /* MASConstraint.m in Sources */,
 				0301A7C7213EDC6F00B7C18A /* NSArray+MASAdditions.m in Sources */,
-				0301A79E213ED7DB00B7C18A /* DDYEtherScanVC.m in Sources */,
+				A4A09789213F883200F807FD /* PAPhotoBrowser.m in Sources */,
+				A4A09794213F883200F807FD /* WKWebView+LongPress.m in Sources */,
+				A4A0978A213F883200F807FD /* PreviewVc.m in Sources */,
 				A4A09748213E96C800F807FD /* DDYEtherModel.m in Sources */,
 				0301A7C2213EDC6F00B7C18A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A4A09797213F883200F807FD /* PAWKPanGestureRecognizer.m in Sources */,
+				A4A0979D213F883200F807FD /* WKJSFunction.m in Sources */,
 				0301A7CB213EDC6F00B7C18A /* MASViewAttribute.m in Sources */,
 				0301A7A7213ED9F800B7C18A /* DDYEtherListCell.m in Sources */,
+				A4A09791213F883200F807FD /* PAWebViewMenu.m in Sources */,
+				A4A09786213F883200F807FD /* NSObject+PARuntime.m in Sources */,
 				0301A7CA213EDC6F00B7C18A /* MASViewConstraint.m in Sources */,
 				A4A09640213E516900F807FD /* ViewController.m in Sources */,
+				A4A0978C213F883200F807FD /* UIImage+TYSnapshot.m in Sources */,
 				0301A7C5213EDC6F00B7C18A /* MASConstraintMaker.m in Sources */,
 				0301A7C6213EDC6F00B7C18A /* MASLayoutConstraint.m in Sources */,
+				A4A09788213F883200F807FD /* WKWebView+PAWebCookie.m in Sources */,
+				A4A0979B213F883200F807FD /* UIAlertController+WKWebAlert.m in Sources */,
+				A4A09796213F883200F807FD /* PAWebNavigationController.m in Sources */,
+				A4A09787213F883200F807FD /* WKWebView+PAWebCache.m in Sources */,
+				A4A0978E213F883200F807FD /* UITableView+TYSnapshot.m in Sources */,
 				0301A7C8213EDC6F00B7C18A /* View+MASAdditions.m in Sources */,
 				0301A7C4213EDC6F00B7C18A /* MASCompositeConstraint.m in Sources */,
+				A4A0978B213F883200F807FD /* TYSnapshot.m in Sources */,
+				A4A09793213F883200F807FD /* urlschemeModel.m in Sources */,
+				A4A0978D213F883200F807FD /* UIScrollView+TYSnapshot.m in Sources */,
 				A4A0963F213E516900F807FD /* main.m in Sources */,
+				A4A09784213F883200F807FD /* PAWebView+UIDelegate.m in Sources */,
+				A4A09795213F883200F807FD /* WKWebView+POST.m in Sources */,
+				A4A0978F213F883200F807FD /* WKWebView+TYSnapshot.m in Sources */,
+				A4A09790213F883200F807FD /* NSURL+PATool.m in Sources */,
 				0301A7C3213EDC6F00B7C18A /* ViewController+MASAdditions.m in Sources */,
+				A4A09792213F883200F807FD /* registerURLSchemes.m in Sources */,
+				A4A09785213F883200F807FD /* PAWebView.m in Sources */,
 				A4A0963C213E516900F807FD /* AppDelegate.m in Sources */,
 				0301A7A4213ED90F00B7C18A /* DDYEtherListVC.m in Sources */,
 				0301A7A1213ED84F00B7C18A /* DDYEtherAddVC.m in Sources */,
